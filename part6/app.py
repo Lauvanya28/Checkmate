@@ -12,14 +12,14 @@ from collections import deque
 
 app = Flask(__name__)
 
-logging.basicConfig(
-    level=logging.DEBUG, 
-    format='%(asctime)s [%(levelname)s] %(message)s',
-    handlers=[
-        logging.FileHandler("face_checkmate.log"),
-        logging.StreamHandler()
-    ]
-)
+# logging.basicConfig(
+#     level=logging.DEBUG, 
+#     format='%(asctime)s [%(levelname)s] %(message)s',
+#     handlers=[
+#         logging.FileHandler("face_checkmate.log"),
+#         logging.StreamHandler()
+#     ]
+# )
 logger = logging.getLogger(__name__)
 
 # Shared states
