@@ -37,7 +37,7 @@ EAR_THRESHOLD = 0.25
 FRAME_WINDOW = 5  # consecutive frames for blink detection
 initial_nose_point = None
 action_start_time = None
-ACTION_TIMEOUT = 20  # seconds
+ACTION_TIMEOUT = 33  # seconds
 
 # Code verification
 current_code = None
